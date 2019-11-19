@@ -1,3 +1,3 @@
-const css = require('css-loader!./index.css');
+const css = require('./index.css')
 const a = 100;
-console.log(a, css);
+console.log(a, css)
