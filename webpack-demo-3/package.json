@@ -1,0 +1,22 @@
+{
+  "name": "webpack-demo-3",
+  "version": "1.0.0",
+  "description": "https://xiedaimala.com/tasks/3b5ffe52-ff02-47e3-96b2-690871b1d792/video_tutorials/a83b3ebd-4e1e-4cdf-a322-8a754a340f14",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --open",
+    "build": "rm -rf dist && webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^3.2.1",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^1.0.1",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  }
+}
